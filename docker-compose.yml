@@ -11,7 +11,7 @@ services:
       DB_USER: postgres
       DB_NAME: postgres
     networks:
-      - myevershop
+      - ANNAPOORANI
     depends_on:
       - database
     ports:
@@ -30,11 +30,11 @@ services:
     ports:
       - "5432:5432"
     networks:
-      - myevershop
+      - ANNAPOORANI
 
 networks:
-  myevershop:
-    name: MyEverShop
+  ANNAPOORANI:
+    name: ANNAPOORANI
     driver: bridge
 
 volumes:
