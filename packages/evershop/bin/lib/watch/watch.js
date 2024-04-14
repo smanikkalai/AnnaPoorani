@@ -1,8 +1,8 @@
 const chokidar = require('chokidar');
 const { resolve } = require('path');
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
+const { CONSTANTS } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/helpers');
 const { existsSync } = require('fs');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 
 function watch(calbacks = []) {
   const watcher = chokidar.watch(resolve(CONSTANTS.ROOTPATH, 'extensions/**'), {
@@ -12,7 +12,7 @@ function watch(calbacks = []) {
   });
 
   if (existsSync(resolve(CONSTANTS.ROOTPATH, 'packages'))) {
-    watcher.add(resolve(CONSTANTS.ROOTPATH, 'packages/evershop/src/**'));
+    watcher.add(resolve(CONSTANTS.ROOTPATH, 'packages/ANNAPOORANI/src/**'));
   }
 
   // Watch themes folder

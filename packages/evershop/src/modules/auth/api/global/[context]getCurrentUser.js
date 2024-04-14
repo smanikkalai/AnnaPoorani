@@ -1,8 +1,8 @@
 const sessionStorage = require('connect-pg-simple');
 const util = require('util');
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
 const session = require('express-session');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const {
   getAdminSessionCookieName
 } = require('../../services/getAdminSessionCookieName');

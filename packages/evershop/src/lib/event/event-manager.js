@@ -1,10 +1,10 @@
-const { select, del } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { select, del } = require('@ANNAPOORANI/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const {
   loadBootstrapScript
-} = require('@evershop/evershop/bin/lib/bootstrap/bootstrap');
-const { getCoreModules } = require('@evershop/evershop/bin/lib/loadModules');
-const { getEnabledExtensions } = require('@evershop/evershop/bin/extension');
+} = require('@ANNAPOORANI/ANNAPOORANI/bin/lib/bootstrap/bootstrap');
+const { getCoreModules } = require('@ANNAPOORANI/ANNAPOORANI/bin/lib/loadModules');
+const { getEnabledExtensions } = require('@ANNAPOORANI/ANNAPOORANI/bin/extension');
 const { callSubscribers } = require('./callSubscibers');
 const { loadSubscribers } = require('./loadSubscribers');
 const { error } = require('../log/logger');

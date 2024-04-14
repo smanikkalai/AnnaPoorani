@@ -4,11 +4,11 @@
 const path = require('path');
 const {
   addDefaultMiddlewareFuncs
-} = require('@evershop/evershop/bin/lib/addDefaultMiddlewareFuncs');
+} = require('@ANNAPOORANI/ANNAPOORANI/bin/lib/addDefaultMiddlewareFuncs');
 const express = require('express');
 const {
   loadModuleRoutes
-} = require('@evershop/evershop/src/lib/router/loadModuleRoutes');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/loadModuleRoutes');
 const { once } = require('events');
 const { getModuleMiddlewares } = require('../..');
 const { getRoutes } = require('../../../router/Router');

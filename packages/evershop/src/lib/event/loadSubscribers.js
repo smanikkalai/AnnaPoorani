@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 
 function loadModuleSubscribers(modulePath) {
   const subscribers = [];

@@ -1,5 +1,5 @@
 const { BlobServiceClient } = require('@azure/storage-blob');
-const { getEnv } = require('@evershop/evershop/src/lib/util/getEnv');
+const { getEnv } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getEnv');
 
 module.exports.azureFileDeleter = {
   delete: async (path) => {

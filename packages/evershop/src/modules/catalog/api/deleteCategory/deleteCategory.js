@@ -1,7 +1,7 @@
 const {
   OK,
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 const deleteCategory = require('../../services/category/deleteCategory');
 
 // eslint-disable-next-line no-unused-vars

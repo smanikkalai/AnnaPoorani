@@ -20,8 +20,8 @@ module.exports = exports = (request, response, next) => {
     request.url = request.originalUrl.replace('/assets', '');
   }
 
-  if (existsSync(join(CONSTANTS.ROOTPATH, '.evershop/build', path))) {
-    staticMiddleware(join(CONSTANTS.ROOTPATH, '.evershop/build'))(
+  if (existsSync(join(CONSTANTS.ROOTPATH, '.ANNAPOORANI/build', path))) {
+    staticMiddleware(join(CONSTANTS.ROOTPATH, '.ANNAPOORANI/build'))(
       request,
       response,
       next

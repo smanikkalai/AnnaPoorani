@@ -1,4 +1,4 @@
-const { currencies } = require('@evershop/evershop/src/lib/locale/currencies');
+const { currencies } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/locale/currencies');
 
 module.exports = {
   Query: {

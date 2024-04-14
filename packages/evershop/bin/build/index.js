@@ -1,16 +1,16 @@
 const { existsSync, rmSync, mkdirSync } = require('fs');
 const path = require('path');
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
+const { CONSTANTS } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/helpers');
 const {
   loadModuleRoutes
-} = require('@evershop/evershop/src/lib/router/loadModuleRoutes');
-const { getRoutes } = require('@evershop/evershop/src/lib/router/Router');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/loadModuleRoutes');
+const { getRoutes } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/Router');
 const {
   isBuildRequired
-} = require('@evershop/evershop/src/lib/webpack/isBuildRequired');
-const { buildEntry } = require('@evershop/evershop/bin/lib/buildEntry');
-const { getCoreModules } = require('@evershop/evershop/bin/lib/loadModules');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/webpack/isBuildRequired');
+const { buildEntry } = require('@ANNAPOORANI/ANNAPOORANI/bin/lib/buildEntry');
+const { getCoreModules } = require('@ANNAPOORANI/ANNAPOORANI/bin/lib/loadModules');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 const { compile } = require('./complie');
 const { getEnabledExtensions } = require('../extension');
 require('dotenv').config();

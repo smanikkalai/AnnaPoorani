@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-const secret = require('@evershop/evershop/src/modules/base/services/secret');
+const secret = require('@ANNAPOORANI/ANNAPOORANI/src/modules/base/services/secret');
 
 function escapeHtmlTags(str) {
   const regex = /<([a-zA-Z]+)(?:\s[^>]*)?>|<\/([a-zA-Z]+)>/g;

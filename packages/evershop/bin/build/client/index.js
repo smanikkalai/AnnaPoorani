@@ -1,8 +1,8 @@
 const webpack = require('webpack');
 const {
   createConfigClient
-} = require('@evershop/evershop/src/lib/webpack/prod/createConfigClient');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/webpack/prod/createConfigClient');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 
 module.exports.buildClient = async function buildClient(routes) {
   const config = createConfigClient(routes);

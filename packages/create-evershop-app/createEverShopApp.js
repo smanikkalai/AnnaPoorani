@@ -41,7 +41,7 @@ function init() {
       );
       console.log(
         `      ${chalk.cyan(
-          'https://github.com/evershop/create-evershop-app/issues/new'
+          'https://github.com/ANNAPOORANI/create-ANNAPOORANI-app/issues/new'
         )}`
       );
       console.log();
@@ -57,7 +57,7 @@ function init() {
     console.log();
     console.log('For example:');
     console.log(
-      `  ${chalk.cyan(program.name())} ${chalk.green('my-evershop-app')}`
+      `  ${chalk.cyan(program.name())} ${chalk.green('my-ANNAPOORANI-app')}`
     );
     console.log();
     console.log(
@@ -75,7 +75,7 @@ function init() {
   checkForLatestVersion()
     .catch(() => {
       try {
-        return execSync('npm view create-evershop-app version')
+        return execSync('npm view create-ANNAPOORANI-app version')
           .toString()
           .trim();
       } catch (e) {
@@ -87,14 +87,14 @@ function init() {
         console.log();
         console.error(
           chalk.yellow(
-            `You are running \`create-evershop-app\` ${packageJson.version}, which is behind the latest release (${latest}).\n\n` +
-              'We recommend always using the latest version of create-evershop-app if possible.'
+            `You are running \`create-ANNAPOORANI-app\` ${packageJson.version}, which is behind the latest release (${latest}).\n\n` +
+              'We recommend always using the latest version of create-ANNAPOORANI-app if possible.'
           )
         );
         console.log();
         console.log(
           'The latest instructions for creating a new app can be found here:\n' +
-            'https://evershop.io/docs/development/getting-started/installation-guide/'
+            'https://ANNAPOORANI.io/docs/development/getting-started/installation-guide/'
         );
         console.log();
       } else {
@@ -116,7 +116,7 @@ function createApp(name, verbose, useYarn) {
   }
   console.log();
 
-  console.log(`Creating a new EverShop app in ${chalk.green(root)}.`);
+  console.log(`Creating a new ANNAPOORANI app in ${chalk.green(root)}.`);
   console.log();
 
   const packageJson = {
@@ -124,10 +124,10 @@ function createApp(name, verbose, useYarn) {
     version: '0.1.0',
     private: true,
     scripts: {
-      setup: 'evershop install',
-      start: 'evershop start',
-      build: 'evershop build',
-      dev: 'evershop dev'
+      setup: 'ANNAPOORANI install',
+      start: 'ANNAPOORANI start',
+      build: 'ANNAPOORANI build',
+      dev: 'ANNAPOORANI dev'
     }
   };
   fs.writeFileSync(
@@ -186,7 +186,7 @@ function install(root, useYarn, dependencies, verbose, isOnline) {
       command = 'npm';
       args = [
         'install',
-        '--no-audit', // https://github.com/facebook/create-evershop-app/issues/11174
+        '--no-audit', // https://github.com/facebook/create-ANNAPOORANI-app/issues/11174
         '--save',
         '--save-exact',
         '--loglevel',
@@ -212,16 +212,16 @@ function install(root, useYarn, dependencies, verbose, isOnline) {
 }
 
 function run(root, appName, verbose, originalDirectory, useYarn) {
-  console.log(`Installing ${chalk.cyan('@evershop/evershop')}`);
+  console.log(`Installing ${chalk.cyan('@ANNAPOORANI/ANNAPOORANI')}`);
   checkIfOnline(useYarn)
     .then((isOnline) => ({
       isOnline
     }))
     .then(({ isOnline }) => {
-      const allDependencies = ['@evershop/evershop'];
+      const allDependencies = ['@ANNAPOORANI/ANNAPOORANI'];
       return install(root, useYarn, allDependencies, verbose, isOnline).then(
         async () => {
-          await setUpEverShop(root);
+          await setUpANNAPOORANI(root);
         }
       );
     })
@@ -325,7 +325,7 @@ function checkAppName(appName) {
 // Also, if project contains remnant error logs from a previous
 // installation, lets remove them now.
 // We also special case IJ-based products .idea because it integrates with CRA:
-// https://github.com/facebook/create-evershop-app/pull/368#issuecomment-243446094
+// https://github.com/facebook/create-ANNAPOORANI-app/pull/368#issuecomment-243446094
 function isSafeToCreateProjectIn(root, name) {
   const validFiles = [
     '.DS_Store',
@@ -411,7 +411,7 @@ function getProxy() {
   }
 }
 
-// See https://github.com/facebook/create-evershop-app/pull/3355
+// See https://github.com/facebook/create-ANNAPOORANI-app/pull/3355
 function checkThatNpmCanReadCwd() {
   const cwd = process.cwd();
   let childOutput = null;
@@ -497,7 +497,7 @@ function checkIfOnline(useYarn) {
   });
 }
 
-async function setUpEverShop(projectDir) {
+async function setUpANNAPOORANI(projectDir) {
   // Use spawn to run 'npm run setup' command from the project directory
   await new Promise((resolve, reject) => {
     const child = spawn('npm', ['run', 'setup'], {
@@ -521,7 +521,7 @@ function loadConfigTemplate(projectDir) {
     readFileSync(
       path.resolve(
         projectDir,
-        './node_modules/@evershop/evershop/bin/install/templates/config.json'
+        './node_modules/@ANNAPOORANI/ANNAPOORANI/bin/install/templates/config.json'
       ),
       'utf-8'
     )
@@ -540,7 +540,7 @@ function checkForLatestVersion() {
   return new Promise((resolve, reject) => {
     https
       .get(
-        'https://registry.npmjs.org/-/package/create-evershop-app/dist-tags',
+        'https://registry.npmjs.org/-/package/create-ANNAPOORANI-app/dist-tags',
         (res) => {
           if (res.statusCode === 200) {
             let body = '';

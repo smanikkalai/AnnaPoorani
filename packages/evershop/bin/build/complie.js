@@ -1,11 +1,11 @@
 const { webpack } = require('webpack');
 const {
   createConfigClient
-} = require('@evershop/evershop/src/lib/webpack/prod/createConfigClient');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/webpack/prod/createConfigClient');
 const {
   createConfigServer
-} = require('@evershop/evershop/src/lib/webpack/prod/createConfigServer');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/webpack/prod/createConfigServer');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 
 module.exports.compile = async function compile(routes) {
   const config = [createConfigClient(routes), createConfigServer(routes)];

@@ -1,4 +1,4 @@
-const { UNAUTHORIZED } = require('@evershop/evershop/src/lib/util/httpStatus');
+const { UNAUTHORIZED } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 
 /**
  * This is the session based authentication middleware.

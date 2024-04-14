@@ -1,10 +1,10 @@
 /* eslint-disable global-require */
 /* eslint-disable guard-for-in */
 /* eslint-disable import/no-import-module-exports */
-const isErrorHandlerTriggered = require('@evershop/evershop/src/lib/middleware/isErrorHandlerTriggered');
-const { render } = require('@evershop/evershop/src/lib/response/render');
-const { get } = require('@evershop/evershop/src/lib/util/get');
-const isDevelopmentMode = require('@evershop/evershop/src/lib/util/isDevelopmentMode');
+const isErrorHandlerTriggered = require('@ANNAPOORANI/ANNAPOORANI/src/lib/middleware/isErrorHandlerTriggered');
+const { render } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/response/render');
+const { get } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/get');
+const isDevelopmentMode = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/isDevelopmentMode');
 
 module.exports = async (request, response, delegate, next) => {
   /** Get all promise delegate */

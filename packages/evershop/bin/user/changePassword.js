@@ -1,10 +1,10 @@
 require('dotenv').config();
-const { error, success } = require('@evershop/evershop/src/lib/log/logger');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { error, success } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const {
   hashPassword
-} = require('@evershop/evershop/src/lib/util/passwordHelper');
-const { update, select } = require('@evershop/postgres-query-builder');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/passwordHelper');
+const { update, select } = require('@ANNAPOORANI/postgres-query-builder');
 const yargs = require('yargs');
 
 function isValidPassword(password) {

@@ -1,20 +1,20 @@
-# Azure storage extension for EverShop
+# Azure storage extension for ANNAPOORANI
 
-This extension allows you to store your EverShop files including product images, banners on Azure Blob Storage.
+This extension allows you to store your ANNAPOORANI files including product images, banners on Azure Blob Storage.
 
-> **Note**: This extension requires EverShop version 1.0.0-rc.9 or higher.
+> **Note**: This extension requires ANNAPOORANI version 1.0.0-rc.9 or higher.
 
 ## Installation guide
 
 ### Step 1: Install the extension using npm:
 
 ```bash
-npm install @evershop/azure_file_storage
+npm install @ANNAPOORANI/azure_file_storage
 ```
 
 ### Step 2: Enable the extension
 
-Edit the `config/default.json` file in the root directory of your EverShop installation and add the following line to the `extensions` section:
+Edit the `config/default.json` file in the root directory of your ANNAPOORANI installation and add the following line to the `extensions` section:
 
 ```json
 {
@@ -25,7 +25,7 @@ Edit the `config/default.json` file in the root directory of your EverShop insta
       ...,
       {
         "name": "azure_file_storage",
-        "resolve": "node_modules/@evershop/azure_file_storage",
+        "resolve": "node_modules/@ANNAPOORANI/azure_file_storage",
         "enabled": true,
         "priority": 10
       }
@@ -46,13 +46,13 @@ AZURE_STORAGE_CONTAINER_NAME="<Your container name>"
 Example:
 
 ```bash
-AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=myevershop;AccountKey=+b1/nrwkpOF5DZCybDqSDFDdfGCQSbx8eua3y7sadgfdgdfAdNNbns6xMNh+EeE0b10uc0ZJ+AStvBx8pg==;EndpointSuffix=core.windows.net"
+AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=myANNAPOORANI;AccountKey=+b1/nrwkpOF5DZCybDqSDFDdfGCQSbx8eua3y7sadgfdgdfAdNNbns6xMNh+EeE0b10uc0ZJ+AStvBx8pg==;EndpointSuffix=core.windows.net"
 AZURE_STORAGE_CONTAINER_NAME="images"
 ```
 
 ### Step 4: Activate the Azure file storage
 
-Edit the `config/default.json` file in the root directory of your EverShop installation and add the following line to the `file_storage` section:
+Edit the `config/default.json` file in the root directory of your ANNAPOORANI installation and add the following line to the `file_storage` section:
 
 ```json
 {

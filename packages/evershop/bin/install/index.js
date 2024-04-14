@@ -11,13 +11,13 @@ const {
   commit,
   rollback,
   insertOnUpdate
-} = require('@evershop/postgres-query-builder');
+} = require('@ANNAPOORANI/postgres-query-builder');
 const { prompt } = require('enquirer');
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
-const { error, success } = require('@evershop/evershop/src/lib/log/logger');
+const { CONSTANTS } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/helpers');
+const { error, success } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 const {
   hashPassword
-} = require('@evershop/evershop/src/lib/util/passwordHelper');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/passwordHelper');
 
 // The installation command will create a .env file in the root directory of the project.
 // If you are using docker, do not run this command. Instead, you should set the environment variables in the docker-compose.yml file and run `npm run start`
@@ -36,8 +36,8 @@ async function install() {
   var adminUser;
 
   success(
-    boxen(green('Welcome to EverShop - The open-source e-commerce platform'), {
-      title: 'EverShop',
+    boxen(green('Welcome to ANNAPOORANI - The open-source e-commerce platform'), {
+      title: 'ANNAPOORANI',
       titleAlignment: 'center',
       padding: 1,
       margin: 1,
@@ -63,8 +63,8 @@ async function install() {
     {
       type: 'input',
       name: 'databaseName',
-      message: 'Postgres Database Name (evershop)',
-      initial: process.env.DB_NAME || 'evershop',
+      message: 'Postgres Database Name (ANNAPOORANI)',
+      initial: process.env.DB_NAME || 'ANNAPOORANI',
       skip: !!process.env.DB_NAME
     },
     {
@@ -191,7 +191,7 @@ async function install() {
 
   /* Start installation */
   const messages = [];
-  messages.push(`\n\n${green('EverShop is being installed ☕ ☕ ☕')}`);
+  messages.push(`\n\n${green('ANNAPOORANI is being installed ☕ ☕ ☕')}`);
   messages.push('Creating .env file');
   const spinner = ora({
     text: green(messages.join('\n')),
@@ -248,7 +248,7 @@ DB_SSLMODE="${sslMode}"
     await insertOnUpdate('admin_user', ['email'])
       .given({
         status: 1,
-        email: adminUser?.email || 'admin@evershop.io',
+        email: adminUser?.email || 'admin@ANNAPOORANI.io',
         password: passwordHash,
         full_name: adminUser?.fullName || 'Admin'
       })
@@ -270,7 +270,7 @@ DB_SSLMODE="${sslMode}"
         'Installation completed!. Run `npm run build` and `npm run start` to launch your store'
       ),
       {
-        title: 'EverShop',
+        title: 'ANNAPOORANI',
         titleAlignment: 'center',
         padding: 1,
         margin: 1,

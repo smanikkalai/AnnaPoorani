@@ -4,16 +4,16 @@ const path = require('path');
 const { inspect } = require('util');
 const {
   getComponentsByRoute
-} = require('@evershop/evershop/src/lib/componee/getComponentsByRoute');
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/componee/getComponentsByRoute');
+const { CONSTANTS } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/helpers');
 const {
   getRouteBuildPath
-} = require('@evershop/evershop/src/lib/webpack/getRouteBuildPath');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/webpack/getRouteBuildPath');
 const {
   parseGraphql
-} = require('@evershop/evershop/src/lib/webpack/util/parseGraphql');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/webpack/util/parseGraphql');
 const JSON5 = require('json5');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 /**
  * Only pass the page routes, not api routes
  */
@@ -65,8 +65,8 @@ module.exports.buildEntry = async function buildEntry(
       let contentClient = `
       import React from 'react';
       import ReactDOM from 'react-dom';
-      import Area from '@evershop/evershop/src/components/common/Area';
-      import Hydrate from '@evershop/evershop/src/components/common/react/client/${
+      import Area from '@ANNAPOORANI/ANNAPOORANI/src/components/common/Area';
+      import Hydrate from '@ANNAPOORANI/ANNAPOORANI/src/components/common/react/client/${
         route.isAdmin ? 'HydrateAdmin' : 'HydrateFrontStore'
       }';
       `;
@@ -97,7 +97,7 @@ module.exports.buildEntry = async function buildEntry(
         contentServer += '\r\n';
         contentServer += `import ReactDOM from 'react-dom'; `;
         contentServer += '\r\n';
-        contentServer += `import Area from '@evershop/evershop/src/components/common/Area';`;
+        contentServer += `import Area from '@ANNAPOORANI/ANNAPOORANI/src/components/common/Area';`;
         contentServer += '\r\n';
         contentServer += `Area.defaultProps.components = ${inspect(areas, {
           depth: 5
