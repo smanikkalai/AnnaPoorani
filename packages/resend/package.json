@@ -4,7 +4,7 @@
   "description": "A Resend extension for ANNAPOORANI.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/resend"
+    "url": "git+https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/resend"
   },
   "keywords": [
     "ANNAPOORANI email",
@@ -13,9 +13,9 @@
   "author": "The Nguyen (https://ANNAPOORANI.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/evershopcommerce/ANNAPOORANI/issues"
+    "url": "https://github.com/ANNAPOORANI/ANNAPOORANI/issues"
   },
-  "homepage": "https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/resend",
+  "homepage": "https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/resend",
   "dependencies": {
     "handlebars": "^4.7.8",
     "resend": "^3.2.0"

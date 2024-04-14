@@ -114,4 +114,4 @@ config
 }
 ```
 
-> **Note**: You can check the example email templates [here](https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/resend/email_template_examples).
+> **Note**: You can check the example email templates [here](https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/resend/email_template_examples).

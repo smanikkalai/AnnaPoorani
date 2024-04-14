@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-<img alt="ANNAPOORANI" width="950" src="https://raw.githubusercontent.com/evershopcommerce/ANNAPOORANI/dev/.github/images/banner.png"/>
+<img alt="ANNAPOORANI" width="950" src="https://raw.githubusercontent.com/ANNAPOORANI/ANNAPOORANI/dev/.github/images/banner.png"/>
 </p>
 
 ## Introduction
@@ -37,7 +37,7 @@ ANNAPOORANI is a GraphQL Based and React ecommerce platform with essential comme
 You can get started with ANNAPOORANI in minutes by using the Docker image. The Docker image is a great way to get started with ANNAPOORANI without having to worry about installing dependencies or configuring your environment.
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/evershopcommerce/ANNAPOORANI/main/docker-compose.yml > docker-compose.yml
+curl -sSL https://raw.githubusercontent.com/ANNAPOORANI/ANNAPOORANI/main/docker-compose.yml > docker-compose.yml
 docker-compose up -d
 ```
 
@@ -58,7 +58,7 @@ Explore our demo store.
 
 <p align="left">
   <a href="https://demo.ANNAPOORANI.io/admin" target="_blank">
-    <img alt="ANNAPOORANI-backend-demo" height="35" alt="ANNAPOORANI Admin Demo" src="https://raw.githubusercontent.com/evershopcommerce/ANNAPOORANI/dev/.github/images/ANNAPOORANI-admin-demo.png"/>
+    <img alt="ANNAPOORANI-backend-demo" height="35" alt="ANNAPOORANI Admin Demo" src="https://raw.githubusercontent.com/ANNAPOORANI/ANNAPOORANI/dev/.github/images/ANNAPOORANI-admin-demo.png"/>
   </a>
 </p>
 <b>Demo user:</b>
@@ -68,7 +68,7 @@ Password: 123456
 
 <p align="left">
   <a href="https://demo.ANNAPOORANI.io/" target="_blank">
-    <img alt="ANNAPOORANI-store-demo" height="35" alt="ANNAPOORANI Store Demo" src="https://raw.githubusercontent.com/evershopcommerce/ANNAPOORANI/dev/.github/images/ANNAPOORANI-store-front-demo.png"/>
+    <img alt="ANNAPOORANI-store-demo" height="35" alt="ANNAPOORANI Store Demo" src="https://raw.githubusercontent.com/ANNAPOORANI/ANNAPOORANI/dev/.github/images/ANNAPOORANI-store-front-demo.png"/>
   </a>
 </p>
 
@@ -79,21 +79,21 @@ If you like my work, feel free to:
 - ⭐ this repository. It helps.
 - [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about ANNAPOORANI. Thank you!
 
-[tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fevershopcommerce%2Fevershop&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
+[tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2FANNAPOORANI%2Fevershop&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
 ### Ask a question about ANNAPOORANI
 
 You can ask questions, and participate in discussions about ANNAPOORANI-related topics in the ANNAPOORANI Discord channel.
 
-<a href="https://discord.gg/GSzt7dt7RM"><img src="https://raw.githubusercontent.com/evershopcommerce/ANNAPOORANI/dev/.github/images/discord_banner_github.svg" /></a>
+<a href="https://discord.gg/GSzt7dt7RM"><img src="https://raw.githubusercontent.com/ANNAPOORANI/ANNAPOORANI/dev/.github/images/discord_banner_github.svg" /></a>
 
 ### Create a bug report
 
-If you see an error message or run into an issue, please [create bug report](https://github.com/evershopcommerce/ANNAPOORANI/issues/new). This effort is valued and it will help all ANNAPOORANI users.
+If you see an error message or run into an issue, please [create bug report](https://github.com/ANNAPOORANI/ANNAPOORANI/issues/new). This effort is valued and it will help all ANNAPOORANI users.
 
 
 ### Submit a feature request
 
-If you have an idea, or you're missing a capability that would make development easier and more robust, please [Submit feature request](https://github.com/evershopcommerce/ANNAPOORANI/issues/new).
+If you have an idea, or you're missing a capability that would make development easier and more robust, please [Submit feature request](https://github.com/ANNAPOORANI/ANNAPOORANI/issues/new).
 
 If a similar feature request already exists, don't forget to leave a "+1".
 If you add some more information such as your thoughts and vision about the feature, your comments will be embraced warmly :)
@@ -106,4 +106,4 @@ Please refer to our [Contribution Guidelines](./CONTRIBUTING.md) and [Code of Co
 
 ## License
 
-[GPL-3.0 License](https://github.com/evershopcommerce/ANNAPOORANI/blob/main/LICENSE)
+[GPL-3.0 License](https://github.com/ANNAPOORANI/ANNAPOORANI/blob/main/LICENSE)

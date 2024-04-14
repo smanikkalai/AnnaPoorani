@@ -4,7 +4,7 @@
   "description": "A SendGrid extension for ANNAPOORANI.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/sendgrid"
+    "url": "git+https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/sendgrid"
   },
   "keywords": [
     "ANNAPOORANI email",
@@ -13,9 +13,9 @@
   "author": "The Nguyen (https://ANNAPOORANI.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/evershopcommerce/ANNAPOORANI/issues"
+    "url": "https://github.com/ANNAPOORANI/ANNAPOORANI/issues"
   },
-  "homepage": "https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/sendgrid",
+  "homepage": "https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/sendgrid",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0"
   },

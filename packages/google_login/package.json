@@ -4,7 +4,7 @@
   "description": "A Google authentication extension for ANNAPOORANI.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/google_login"
+    "url": "git+https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/google_login"
   },
   "keywords": [
     "ANNAPOORANI google login"
@@ -12,9 +12,9 @@
   "author": "The Nguyen (https://ANNAPOORANI.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/evershopcommerce/ANNAPOORANI/issues"
+    "url": "https://github.com/ANNAPOORANI/ANNAPOORANI/issues"
   },
-  "homepage": "https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/google_login",
+  "homepage": "https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/google_login",
   "engines": {
     "node": ">= 14.0.0"
   }
