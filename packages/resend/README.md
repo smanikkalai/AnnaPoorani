@@ -1,15 +1,15 @@
-# Resend extension for EverShop
+# Resend extension for ANNAPOORANI
 
-A Resend extension for EverShop. This extension is used to send email to customers.
+A Resend extension for ANNAPOORANI. This extension is used to send email to customers.
 
-> **Note**: This extension requires EverShop version 1.0.0 or higher.
+> **Note**: This extension requires ANNAPOORANI version 1.0.0 or higher.
 
 ## Installation
 
 ### Step 1: Install the extension package
 
 ```javascript
-npm install @evershop/resend
+npm install @ANNAPOORANI/resend
 ```
 ### Step 2: Register the extension by adding it to the config file
 
@@ -23,7 +23,7 @@ npm install @evershop/resend
         ...,
         {
           "name": "resend",
-          "resolve": "node_modules/@evershop/resend",
+          "resolve": "node_modules/@ANNAPOORANI/resend",
           "enabled": true,
           "priority": 10
         }
@@ -60,7 +60,7 @@ RESEND_API_KEY=your_api_key
         "templatePath": "config/emails/reset_password.html" // The path to your email template. Starting from the root of your project
       },
       "customer_registered": {
-        "subject": "Welcome to EverShop",
+        "subject": "Welcome to ANNAPOORANI",
         "enabled": true,
         "templatePath": "config/emails/welcome.html" // The path to your email template. Starting from the root of your project
       }
@@ -105,7 +105,7 @@ config
         "templatePath": "config/emails/reset_password.html"
       },
       "customer_registered": {
-        "subject": "Welcome to EverShop",
+        "subject": "Welcome to ANNAPOORANI",
         "enabled": true,
         "templatePath": "config/emails/welcome.html"
       }
@@ -114,4 +114,4 @@ config
 }
 ```
 
-> **Note**: You can check the example email templates [here](https://github.com/evershopcommerce/evershop/tree/main/packages/resend/email_template_examples).
+> **Note**: You can check the example email templates [here](https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/resend/email_template_examples).

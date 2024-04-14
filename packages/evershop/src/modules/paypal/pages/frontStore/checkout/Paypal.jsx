@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import { useCheckout } from '@components/common/context/checkout';
 import PaypalLogo from '@components/frontStore/paypal/PaypalLogo';
-import { _ } from '@evershop/evershop/src/lib/locale/translate';
+import { _ } from '@ANNAPOORANI/ANNAPOORANI/src/lib/locale/translate';
 
 
 export function Paypal({

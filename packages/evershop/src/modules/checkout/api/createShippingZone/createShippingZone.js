@@ -4,14 +4,14 @@ const {
   insert,
   commit,
   startTransaction
-} = require('@evershop/postgres-query-builder');
+} = require('@ANNAPOORANI/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const {
   OK,
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, deledate, next) => {

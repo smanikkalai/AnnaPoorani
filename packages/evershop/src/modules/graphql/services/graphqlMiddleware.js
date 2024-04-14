@@ -1,7 +1,7 @@
 const { execute } = require('graphql');
 const { validate } = require('graphql/validation');
 const { parse } = require('graphql');
-const { OK } = require('@evershop/evershop/src/lib/util/httpStatus');
+const { OK } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 const { getContext } = require('./contextHelper');
 
 module.exports.graphqlMiddleware = (schema) =>

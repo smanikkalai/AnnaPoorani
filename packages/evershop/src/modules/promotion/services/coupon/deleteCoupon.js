@@ -1,14 +1,14 @@
-const { hookable } = require('@evershop/evershop/src/lib/util/hookable');
+const { hookable } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/hookable');
 const {
   startTransaction,
   commit,
   rollback,
   select,
   del
-} = require('@evershop/postgres-query-builder');
+} = require('@ANNAPOORANI/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 
 async function deleteCouponData(uuid, connection) {
   await del('coupon').where('uuid', '=', uuid).execute(connection);

@@ -10,6 +10,6 @@ exports.CONSTANTS = Object.freeze({
   MEDIAPATH: path.resolve(rootPath, 'media'),
   NODEMODULEPATH: path.resolve(rootPath, 'node_modules'),
   THEMEPATH: path.resolve(rootPath, 'themes'),
-  CACHEPATH: path.resolve(rootPath, '.evershop'),
-  BUILDPATH: path.resolve(rootPath, '.evershop', 'build')
+  CACHEPATH: path.resolve(rootPath, '.ANNAPOORANI'),
+  BUILDPATH: path.resolve(rootPath, '.ANNAPOORANI', 'build')
 });

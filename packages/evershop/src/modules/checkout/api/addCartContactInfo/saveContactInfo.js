@@ -3,7 +3,7 @@ const {
   INVALID_PAYLOAD,
   OK,
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 const { getCartByUUID } = require('../../services/getCartByUUID');
 const { saveCart } = require('../../services/saveCart');
 

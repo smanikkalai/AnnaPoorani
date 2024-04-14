@@ -1,9 +1,9 @@
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { camelCase } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/camelCase');
 const {
   getProductsBaseQuery
-} = require('@evershop/evershop/src/modules/catalog/services/getProductsBaseQuery');
-const { sql } = require('@evershop/postgres-query-builder');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/modules/catalog/services/getProductsBaseQuery');
+const { sql } = require('@ANNAPOORANI/postgres-query-builder');
 
 module.exports = {
   Query: {

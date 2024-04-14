@@ -1,20 +1,20 @@
-# Google authentication extension for EverShop
+# Google authentication extension for ANNAPOORANI
 
-This extension allows customer to login to EverShop using your Google account.
+This extension allows customer to login to ANNAPOORANI using your Google account.
 
-> **Note**: This extension requires EverShop version 1.0.0-rc.6 or higher.
+> **Note**: This extension requires ANNAPOORANI version 1.0.0-rc.6 or higher.
 
 ## Installation guide
 
 ### Step 1: Install the extension using npm:
 
 ```bash
-npm install @evershop/google_login
+npm install @ANNAPOORANI/google_login
 ```
 
 ### Step 2: Enable the extension
 
-Edit the `config/default.json` file in the root directory of your EverShop installation and add the following line to the `extensions` section:
+Edit the `config/default.json` file in the root directory of your ANNAPOORANI installation and add the following line to the `extensions` section:
 
 ```json
 {
@@ -25,7 +25,7 @@ Edit the `config/default.json` file in the root directory of your EverShop insta
       ...,
       {
         "name": "google_login",
-        "resolve": "node_modules/@evershop/google_login",
+        "resolve": "node_modules/@ANNAPOORANI/google_login",
         "enabled": true,
         "priority": 10
       }

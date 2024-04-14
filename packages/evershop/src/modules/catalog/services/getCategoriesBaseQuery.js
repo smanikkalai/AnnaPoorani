@@ -1,4 +1,4 @@
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
 
 module.exports.getCategoriesBaseQuery = () => {
   const query = select().from('category');

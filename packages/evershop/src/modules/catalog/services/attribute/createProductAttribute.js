@@ -1,8 +1,8 @@
-const { hookable } = require('@evershop/evershop/src/lib/util/hookable');
+const { hookable } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/hookable');
 const {
   getValueSync,
   getValue
-} = require('@evershop/evershop/src/lib/util/registry');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/registry');
 const {
   startTransaction,
   commit,
@@ -10,10 +10,10 @@ const {
   insert,
   select,
   insertOnUpdate
-} = require('@evershop/postgres-query-builder');
+} = require('@ANNAPOORANI/postgres-query-builder');
 const {
   getConnection
-} = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const { getAjv } = require('../../../base/services/getAjv');
 const attributeDataSchema = require('./attributeDataSchema.json');
 

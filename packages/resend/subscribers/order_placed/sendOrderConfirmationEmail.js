@@ -1,15 +1,15 @@
 const path = require('path');
 const fs = require('fs').promises;
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 const { Resend } = require('resend');
-const { select } = require('@evershop/postgres-query-builder');
-const { contries } = require('@evershop/evershop/src/lib/locale/countries');
-const { provinces } = require('@evershop/evershop/src/lib/locale/provinces');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
+const { contries } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/locale/countries');
+const { provinces } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/locale/provinces');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 const Handlebars = require('handlebars');
-const { getEnv } = require('@evershop/evershop/src/lib/util/getEnv');
-const { getValue } = require('@evershop/evershop/src/lib/util/registry');
+const { getEnv } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getEnv');
+const { getValue } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/registry');
 
 module.exports = async function sendOrderConfirmationEmail(data) {
   try {

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { toast } from 'react-toastify';
 import Area from '@components/common/Area';
-import { _ } from '@evershop/evershop/src/lib/locale/translate';
+import { _ } from '@ANNAPOORANI/ANNAPOORANI/src/lib/locale/translate';
 
 export default function Layout({ logoutUrl }) {
   const logout = async (e) => {

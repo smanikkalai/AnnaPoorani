@@ -1,4 +1,4 @@
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
 
 module.exports = {
   Cart: {

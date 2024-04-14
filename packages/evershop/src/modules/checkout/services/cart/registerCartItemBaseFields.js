@@ -1,6 +1,6 @@
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { select } = require('@evershop/postgres-query-builder');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
+const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
 const { v4: uuidv4 } = require('uuid');
 const { toPrice } = require('../toPrice');
 const {

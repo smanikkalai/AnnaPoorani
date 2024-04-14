@@ -1,9 +1,9 @@
 const {
   OK,
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
+const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 const createCustomer = require('../../services/customer/createCustomer');
 
 // eslint-disable-next-line no-unused-vars

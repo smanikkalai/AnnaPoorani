@@ -1,7 +1,7 @@
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
 const uniqid = require('uniqid');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
+const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
+const { camelCase } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/camelCase');
 const {
   getProductsBaseQuery
 } = require('../../../../services/getProductsBaseQuery');

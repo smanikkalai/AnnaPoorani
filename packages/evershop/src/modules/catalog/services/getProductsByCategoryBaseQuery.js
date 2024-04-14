@@ -1,5 +1,5 @@
-const { execute } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { execute } = require('@ANNAPOORANI/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const { getProductsBaseQuery } = require('./getProductsBaseQuery');
 
 module.exports.getProductsByCategoryBaseQuery = async (

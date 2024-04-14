@@ -1,7 +1,7 @@
-const { select, node } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { get } = require('@evershop/evershop/src/lib/util/get');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { select, node } = require('@ANNAPOORANI/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { get } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/get');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 const {
   setContextValue
 } = require('../../../../graphql/services/contextHelper');

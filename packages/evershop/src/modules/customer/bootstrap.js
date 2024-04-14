@@ -1,7 +1,7 @@
 const { request } = require('express');
 const config = require('config');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { select } = require('@evershop/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
 const { comparePassword } = require('../../lib/util/passwordHelper');
 const { translate } = require('../../lib/locale/translate/translate');
 const { addProcessor } = require('../../lib/util/registry');

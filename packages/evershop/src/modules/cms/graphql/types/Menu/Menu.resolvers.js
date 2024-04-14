@@ -1,5 +1,5 @@
-const { select, value } = require('@evershop/postgres-query-builder');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const { select, value } = require('@ANNAPOORANI/postgres-query-builder');
+const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
 
 module.exports = {
   Query: {

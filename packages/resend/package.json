@@ -1,21 +1,21 @@
 {
-  "name": "@evershop/resend",
+  "name": "@ANNAPOORANI/resend",
   "version": "1.0.0",
-  "description": "A Resend extension for EverShop.",
+  "description": "A Resend extension for ANNAPOORANI.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evershopcommerce/evershop/tree/main/packages/resend"
+    "url": "git+https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/resend"
   },
   "keywords": [
-    "EverShop email",
-    "EverShop Resend"
+    "ANNAPOORANI email",
+    "ANNAPOORANI Resend"
   ],
-  "author": "The Nguyen (https://evershop.io/)",
+  "author": "The Nguyen (https://ANNAPOORANI.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/evershopcommerce/evershop/issues"
+    "url": "https://github.com/evershopcommerce/ANNAPOORANI/issues"
   },
-  "homepage": "https://github.com/evershopcommerce/evershop/tree/main/packages/resend",
+  "homepage": "https://github.com/evershopcommerce/ANNAPOORANI/tree/main/packages/resend",
   "dependencies": {
     "handlebars": "^4.7.8",
     "resend": "^3.2.0"

@@ -1,7 +1,7 @@
 /* eslint-disable consistent-return */
-const { select } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 const { getCartTotalBeforeDiscount } = require('./getCartTotalBeforeDiscount');
 const { toPrice } = require('../../checkout/services/toPrice');
 

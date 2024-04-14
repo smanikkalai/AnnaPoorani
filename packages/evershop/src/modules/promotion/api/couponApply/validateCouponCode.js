@@ -1,6 +1,6 @@
 const {
   INVALID_PAYLOAD
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 
 module.exports = async (request, response, delegate, next) => {
   if (!request.body.coupon || !/^\S*$/.test(request.body.coupon)) {

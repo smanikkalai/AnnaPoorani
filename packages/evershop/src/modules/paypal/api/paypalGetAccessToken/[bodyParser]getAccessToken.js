@@ -1,12 +1,12 @@
 const { default: axios } = require('axios');
-const { select } = require('@evershop/postgres-query-builder');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const {
   INVALID_PAYLOAD,
   OK,
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 const { getSetting } = require('../../../setting/services/setting');
 const { setContextValue } = require('../../../graphql/services/contextHelper');
 const { getApiBaseUrl } = require('../../services/getApiBaseUrl');

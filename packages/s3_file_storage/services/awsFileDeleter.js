@@ -3,7 +3,7 @@ const {
   DeleteObjectCommand,
   HeadObjectCommand
 } = require('@aws-sdk/client-s3');
-const { getEnv } = require('@evershop/evershop/src/lib/util/getEnv');
+const { getEnv } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getEnv');
 
 const s3Client = new S3Client({ region: getEnv('AWS_REGION') });
 const bucketName = getEnv('AWS_BUCKET_NAME');

@@ -1,9 +1,9 @@
 const {
   translate
-} = require('@evershop/evershop/src/lib/locale/translate/translate');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/locale/translate/translate');
 const {
   setContextValue
-} = require('@evershop/evershop/src/modules/graphql/services/contextHelper');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/modules/graphql/services/contextHelper');
 
 module.exports = (request, response, delegate, next) => {
   const { query } = request;

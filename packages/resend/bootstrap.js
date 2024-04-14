@@ -1,5 +1,5 @@
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
-const { addProcessor } = require('@evershop/evershop/src/lib/util/registry');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
+const { addProcessor } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/registry');
 const config = require('config');
 
 module.exports = () => {
@@ -17,7 +17,7 @@ module.exports = () => {
         templatePath: undefined // This is the path to the email template. Starting from the root of the project.
       },
       customer_registered: {
-        subject: 'Welcome to Evershop',
+        subject: 'Welcome to ANNAPOORANI',
         enabled: true,
         templatePath: undefined // This is the path to the email template. Starting from the root of the project.
       }

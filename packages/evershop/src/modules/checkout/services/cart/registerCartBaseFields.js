@@ -1,10 +1,10 @@
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 const { v4: uuidv4 } = require('uuid');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { select } = require('@evershop/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
 const { default: axios } = require('axios');
-const normalizePort = require('@evershop/evershop/bin/lib/normalizePort');
-const { buildUrl } = require('@evershop/evershop/src/lib/router/buildUrl');
+const normalizePort = require('@ANNAPOORANI/ANNAPOORANI/bin/lib/normalizePort');
+const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
 const { getTaxPercent } = require('../../../tax/services/getTaxPercent');
 const {
   calculateTaxAmount
@@ -250,7 +250,7 @@ module.exports.registerCartBaseFields = function registerCartBaseFields() {
           if (!this.getData('shipping_address_id')) {
             return null;
           }
-          // By default, EverShop supports free shipping and flat rate shipping method
+          // By default, ANNAPOORANI supports free shipping and flat rate shipping method
           // Load shipping method from database
           const shippingMethodQuery = select().from('shipping_method');
           shippingMethodQuery

@@ -1,4 +1,4 @@
-const { addProcessor } = require('@evershop/evershop/src/lib/util/registry');
+const { addProcessor } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/registry');
 const { awsFileUploader } = require('./services/awsFileUploader');
 const { awsFileDeleter } = require('./services/awsFileDeleter');
 const { awsFileBrowser } = require('./services/awsFileBrowser');

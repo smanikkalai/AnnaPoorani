@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import Order from '@components/frontStore/customer/detail/Order';
-import { _ } from '@evershop/evershop/src/lib/locale/translate';
+import { _ } from '@ANNAPOORANI/ANNAPOORANI/src/lib/locale/translate';
 
 export default function OrderHistory({ customer: { orders = [] } }) {
   return (

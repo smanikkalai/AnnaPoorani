@@ -1,10 +1,10 @@
 const {
   getSetting
-} = require('@evershop/evershop/src/modules/setting/services/setting');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/modules/setting/services/setting');
 const {
   toPrice
-} = require('@evershop/evershop/src/modules/checkout/services/toPrice');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/modules/checkout/services/toPrice');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 const { getTaxRates } = require('../../../../services/getTaxRates');
 const { getTaxPercent } = require('../../../../services/getTaxPercent');
 const {

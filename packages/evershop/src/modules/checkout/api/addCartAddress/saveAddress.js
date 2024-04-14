@@ -1,11 +1,11 @@
 /* eslint-disable camelcase */
-const { insert, select } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { insert, select } = require('@ANNAPOORANI/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const {
   INVALID_PAYLOAD,
   OK,
   INTERNAL_SERVER_ERROR
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 const { getCartByUUID } = require('../../services/getCartByUUID');
 const { saveCart } = require('../../services/saveCart');
 const {

@@ -1,7 +1,7 @@
 /* eslint-disable consistent-return */
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
 const { DateTime } = require('luxon');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const { getCartTotalBeforeDiscount } = require('./getCartTotalBeforeDiscount');
 
 module.exports.registerDefaultValidators =

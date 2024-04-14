@@ -1,6 +1,6 @@
-const { select } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { getValueSync } = require('@evershop/evershop/src/lib/util/registry');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { getValueSync } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/registry');
 
 /**
  * This method validate a coupon.

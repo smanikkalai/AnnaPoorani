@@ -1,6 +1,6 @@
 const {
   INVALID_PAYLOAD
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 const { getMulter } = require('../../services/getMulter');
 
 const upload = getMulter();

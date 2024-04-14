@@ -9,7 +9,7 @@ import {
 } from '@components/common/context/checkoutSteps';
 import { CheckoutProvider } from '@components/common/context/checkout';
 import './Checkout.scss';
-import { _ } from '@evershop/evershop/src/lib/locale/translate';
+import { _ } from '@ANNAPOORANI/ANNAPOORANI/src/lib/locale/translate';
 
 function Steps() {
   return (

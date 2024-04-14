@@ -1,10 +1,10 @@
-const { error } = require('@evershop/evershop/src/lib/log/logger');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const {
   execute,
   select,
   insertOnUpdate
-} = require('@evershop/postgres-query-builder');
+} = require('@ANNAPOORANI/postgres-query-builder');
 
 module.exports = async function buildUrlReWrite(data) {
   const categoryId = data.category_id;

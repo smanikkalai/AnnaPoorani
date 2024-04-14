@@ -1,4 +1,4 @@
-# Contributing to EverShop
+# Contributing to ANNAPOORANI
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -9,7 +9,7 @@ We love your input! We want to make contributing to this project as easy and tra
 
 ---
 
-- Read about our [Code Of Conduct](https://github.com/evershopcommerce/evershop/blob/main/CODE_OF_CONDUCT.md).
+- Read about our [Code Of Conduct](https://github.com/evershopcommerce/ANNAPOORANI/blob/main/CODE_OF_CONDUCT.md).
 
 ## Developing
 
@@ -20,7 +20,7 @@ To develop locally:
    [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device.
 
    ```sh
-   git clone https://github.com/evershopcommerce/evershop.git
+   git clone https://github.com/evershopcommerce/ANNAPOORANI.git
    ```
 
 2. Create a new branch:
@@ -33,7 +33,7 @@ To develop locally:
    ```
 4. Create a Postgres database:
    ```
-   // EverShop use Postgres for database storage
+   // ANNAPOORANI use Postgres for database storage
    ```
 5. Run installation command to create a database schema:
    ```
@@ -65,16 +65,16 @@ npm run test
 10. Issue that [pull request!](https://github.com/github/docs/blob/main/CONTRIBUTING.md)
 
 ## Any contributions you make will be under the GNU General Public License v3.0 Software License
-In short, when you submit code changes, your submissions are understood to be under the same [GNU General Public License v3.0](https://github.com/evershopcommerce/evershop/blob/main/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
+In short, when you submit code changes, your submissions are understood to be under the same [GNU General Public License v3.0](https://github.com/evershopcommerce/ANNAPOORANI/blob/main/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
 
-## Report bugs using Github's [issues](https://github.com/evershopcommerce/evershop/issues)
+## Report bugs using Github's [issues](https://github.com/evershopcommerce/ANNAPOORANI/issues)
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); it's that easy!
 
 ## Write bug reports with detail, background, and sample code
 **Great Bug Reports** tend to have:
 
 - A quick summary and/or background
-  - What EverShop version you are using
+  - What ANNAPOORANI version you are using
   - What NodeJs version you are using
   - What OS system you are using
   - What Postgres version you are using

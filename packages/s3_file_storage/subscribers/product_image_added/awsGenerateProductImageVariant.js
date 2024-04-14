@@ -4,12 +4,12 @@ const {
   GetObjectCommand,
   PutObjectCommand
 } = require('@aws-sdk/client-s3');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
-const { getEnv } = require('@evershop/evershop/src/lib/util/getEnv');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
+const { getEnv } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getEnv');
 const sharp = require('sharp');
-const { update } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
-const { error } = require('@evershop/evershop/src/lib/log/logger');
+const { update } = require('@ANNAPOORANI/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 
 async function downloadObjectToBuffer(objectUrl) {
   const parsedUrl = new URL(objectUrl);

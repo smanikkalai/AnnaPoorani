@@ -1,7 +1,7 @@
 const {
   INTERNAL_SERVER_ERROR,
   OK
-} = require('@evershop/evershop/src/lib/util/httpStatus');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = (request, response, delegate, next) => {

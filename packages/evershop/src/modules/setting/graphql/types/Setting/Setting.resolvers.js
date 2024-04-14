@@ -1,4 +1,4 @@
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
 
 module.exports = {
   Query: {
@@ -13,7 +13,7 @@ module.exports = {
       if (storeName) {
         return storeName.value;
       } else {
-        return 'EverShop Store';
+        return 'ANNAPOORANI Store';
       }
     }
   }

@@ -1,4 +1,4 @@
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 const { getSetting } = require('../../../setting/services/setting');
 
 // eslint-disable-next-line no-unused-vars

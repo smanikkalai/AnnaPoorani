@@ -1,4 +1,4 @@
-const logger = require('@evershop/evershop/src/lib/log/logger');
+const logger = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
 const { setDelegate } = require('./delegate');
 
 // eslint-disable-next-line no-multi-assign

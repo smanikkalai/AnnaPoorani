@@ -1,8 +1,8 @@
-const { camelCase } = require('@evershop/evershop/src/lib/util/camelCase');
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { camelCase } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/camelCase');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 const uniqid = require('uniqid');
-const { select, value, node } = require('@evershop/postgres-query-builder');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+const { select, value, node } = require('@ANNAPOORANI/postgres-query-builder');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 
 class ProductCollection {
   constructor(baseQuery) {

@@ -1,15 +1,15 @@
-# SendGrid emailing for EverShop
+# SendGrid emailing for ANNAPOORANI
 
-A SendGrid extension for EverShop. This extension is used to send email to customers.
+A SendGrid extension for ANNAPOORANI. This extension is used to send email to customers.
 
-> **Note**: This extension requires EverShop version 1.0.0-rc.6 or higher.
+> **Note**: This extension requires ANNAPOORANI version 1.0.0-rc.6 or higher.
 
 ## Installation
 
 ### Step 1: Install the extension package
 
 ```javascript
-npm install @evershop/sendgrid
+npm install @ANNAPOORANI/sendgrid
 ```
 ### Step 2: Register the extension by adding it to the config file
 
@@ -23,7 +23,7 @@ npm install @evershop/sendgrid
         ...,
         {
           "name": "sendGrid",
-          "resolve": "node_modules/@evershop/sendgrid",
+          "resolve": "node_modules/@ANNAPOORANI/sendgrid",
           "enabled": true,
           "priority": 10
         }
@@ -40,7 +40,7 @@ npm install @evershop/sendgrid
   ...,
   "sendgrid": {
     "from": "Customer Service <Your email>",
-    "fromName": "Evershop",
+    "fromName": "ANNAPOORANI",
     "events": {
       "order_placed": {
         "enabled": true,
@@ -174,7 +174,7 @@ Below is the data you can use in your email template
 
 ```json
 {
-  "reset_password_url": "https://demo.evershop.io/reset-password?token=3NedZnEvEMCuLU1x1IHT684B"
+  "reset_password_url": "https://demo.ANNAPOORANI.io/reset-password?token=3NedZnEvEMCuLU1x1IHT684B"
 }
 ```
 
@@ -185,7 +185,7 @@ Below is the data you can use in your email template
 ```json
 {
   "full_name": "David",
-  "email": "david@evershop.io"
+  "email": "david@ANNAPOORANI.io"
 }
 ```
 

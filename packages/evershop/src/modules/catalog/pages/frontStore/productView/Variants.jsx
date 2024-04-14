@@ -2,10 +2,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import PubSub from 'pubsub-js';
-import { FORM_VALIDATED } from '@evershop/evershop/src/lib/util/events';
+import { FORM_VALIDATED } from '@ANNAPOORANI/ANNAPOORANI/src/lib/util/events';
 import './Variants.scss';
 import { useAppDispatch } from '@components/common/context/app';
-import { _ } from '@evershop/evershop/src/lib/locale/translate';
+import { _ } from '@ANNAPOORANI/ANNAPOORANI/src/lib/locale/translate';
 
 export default function Variants({
   product: { variantGroup: vs },

@@ -1,4 +1,4 @@
-const { getConfig } = require('@evershop/evershop/src/lib/util/getConfig');
+const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
 
 module.exports = {
   Setting: {
@@ -7,7 +7,7 @@ module.exports = {
       if (storeName) {
         return storeName.value;
       } else {
-        return 'An Amazing EverShop Store';
+        return 'An Amazing ANNAPOORANI Store';
       }
     },
     storeDescription: (setting) => {
@@ -17,7 +17,7 @@ module.exports = {
       if (storeDescription) {
         return storeDescription.value;
       } else {
-        return 'An Amazing EverShop Store';
+        return 'An Amazing ANNAPOORANI Store';
       }
     },
     storeLanguage: () => getConfig('shop.language', 'en'),

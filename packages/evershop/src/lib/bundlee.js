@@ -29,7 +29,7 @@ module.exports = async (request, response, route) => {
     let hash;
     if (route.isAdmin === true) {
       const bundles = readdirSync(
-        path.resolve(CONSTANTS.ROOTPATH, './.evershop/build/admin', route.id),
+        path.resolve(CONSTANTS.ROOTPATH, './.ANNAPOORANI/build/admin', route.id),
         { withFileTypes: true }
       )
         .filter((dirent) => dirent.isFile())
@@ -49,7 +49,7 @@ module.exports = async (request, response, route) => {
       const bundles = readdirSync(
         path.resolve(
           CONSTANTS.ROOTPATH,
-          './.evershop/build/frontStore',
+          './.ANNAPOORANI/build/frontStore',
           route.id
         ),
         { withFileTypes: true }
@@ -127,10 +127,10 @@ module.exports = async (request, response, route) => {
   route.__BUILDING__ = true;
 
   if (
-    existsSync(path.resolve(CONSTANTS.ROOTPATH, './.evershop/build', scopePath))
+    existsSync(path.resolve(CONSTANTS.ROOTPATH, './.ANNAPOORANI/build', scopePath))
   )
     await rmdir(
-      path.resolve(CONSTANTS.ROOTPATH, './.evershop/build', scopePath),
+      path.resolve(CONSTANTS.ROOTPATH, './.ANNAPOORANI/build', scopePath),
       { recursive: true }
     );
 
@@ -151,13 +151,13 @@ module.exports = async (request, response, route) => {
     .replace(/'---/g, '')
     .replace(/---'/g, '')}`;
   await mkdir(
-    path.resolve(CONSTANTS.ROOTPATH, './.evershop/build', scopePath),
+    path.resolve(CONSTANTS.ROOTPATH, './.ANNAPOORANI/build', scopePath),
     { recursive: true }
   );
   await writeFile(
     path.resolve(
       CONSTANTS.ROOTPATH,
-      '.evershop/build',
+      '.ANNAPOORANI/build',
       scopePath,
       'components.js'
     ),
@@ -222,7 +222,7 @@ module.exports = async (request, response, route) => {
   await writeFile(
     path.resolve(
       CONSTANTS.ROOTPATH,
-      '.evershop/build',
+      '.ANNAPOORANI/build',
       scopePath,
       `${hash}.css`
     ),

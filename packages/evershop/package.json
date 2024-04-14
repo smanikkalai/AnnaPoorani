@@ -1,5 +1,5 @@
 {
-  "name": "@evershop/evershop",
+  "name": "@ANNAPOORANI/ANNAPOORANI",
   "version": "1.0.0",
   "description": "The React Ecommerce platform. Built with React and Postgres. Open-source and free. Fast and customizable.",
   "files": [
@@ -7,23 +7,23 @@
     "src"
   ],
   "bin": {
-    "evershop": "./bin/evershop"
+    "ANNAPOORANI": "./bin/ANNAPOORANI"
   },
   "scripts": {
     "prepublishOnly": "node prepublish.js",
     "prepack": "node prepublish.js",
-    "dev": "evershop dev",
-    "build": "evershop build",
-    "start": "evershop start",
-    "user:create": "evershop user:create",
-    "user:changePassword": "evershop user:changePassword",
+    "dev": "ANNAPOORANI dev",
+    "build": "ANNAPOORANI build",
+    "start": "ANNAPOORANI start",
+    "user:create": "ANNAPOORANI user:create",
+    "user:changePassword": "ANNAPOORANI user:changePassword",
     "test": "jest"
   },
-  "author": "The Nguyen (https://evershop.io)",
+  "author": "The Nguyen (https://ANNAPOORANI.io)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evershopcommerce/evershop.git"
+    "url": "git+https://github.com/evershopcommerce/ANNAPOORANI.git"
   },
   "keywords": [
     "ecommerce",
@@ -31,16 +31,16 @@
     "cart"
   ],
   "bugs": {
-    "url": "https://github.com/evershopcommerce/evershop/issues"
+    "url": "https://github.com/evershopcommerce/ANNAPOORANI/issues"
   },
-  "homepage": "http://evershop.io/",
+  "homepage": "http://ANNAPOORANI.io/",
   "dependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
     "@ckeditor/ckeditor5-build-classic": "^36.0.1",
     "@ckeditor/ckeditor5-react": "^5.1.0",
-    "@evershop/postgres-query-builder": "^1.1.0",
+    "@ANNAPOORANI/postgres-query-builder": "^1.1.0",
     "@graphql-tools/load-files": "^6.6.1",
     "@graphql-tools/merge": "^8.3.5",
     "@graphql-tools/schema": "^9.0.3",

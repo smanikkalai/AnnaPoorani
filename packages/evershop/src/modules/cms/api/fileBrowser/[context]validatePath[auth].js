@@ -1,7 +1,7 @@
 const {
   INVALID_PAYLOAD
-} = require('@evershop/evershop/src/lib/util/httpStatus');
-const { CONSTANTS } = require('@evershop/evershop/src/lib/helpers');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
+const { CONSTANTS } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/helpers');
 const { validatePath } = require('../../services/validatePath');
 
 module.exports = (request, response, delegate, next) => {

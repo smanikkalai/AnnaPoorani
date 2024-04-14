@@ -1,13 +1,13 @@
-const { select } = require('@evershop/postgres-query-builder');
+const { select } = require('@ANNAPOORANI/postgres-query-builder');
 const {
   INVALID_PAYLOAD,
   INTERNAL_SERVER_ERROR,
   OK
-} = require('@evershop/evershop/src/lib/util/httpStatus');
-const { pool } = require('@evershop/evershop/src/lib/postgres/connection');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
+const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
 const {
   translate
-} = require('@evershop/evershop/src/lib/locale/translate/translate');
+} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/locale/translate/translate');
 const {
   setContextValue,
   getContextValue

@@ -3,7 +3,7 @@ import React from 'react';
 import { Field } from '@components/common/form/Field';
 import { Form } from '@components/common/form/Form';
 import './LoginForm.scss';
-import { _ } from '@evershop/evershop/src/lib/locale/translate';
+import { _ } from '@ANNAPOORANI/ANNAPOORANI/src/lib/locale/translate';
 import Area from '@components/common/Area';
 
 export default function LoginForm({
