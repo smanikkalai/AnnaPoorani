@@ -5,16 +5,16 @@
       "@components/*": [
         "./themes/friday/components/*",
         "./extensions/productComment/components/*",
-        "./packages/ANNAPOORANI/src/components/*"
+        "./packages/AnnaPoorani/src/components/*"
       ],
       "@components-origin/*": [
-        "./packages/ANNAPOORANI/src/components/*"
+        "./packages/AnnaPoorani/src/components/*"
       ],
       "@default-theme/cms/*" : [
-        "./packages/ANNAPOORANI/src/modules/cms/pages/*"
+        "./packages/AnnaPoorani/src/modules/cms/pages/*"
       ],
-      "@ANNAPOORANI/ANNAPOORANI/*" : [
-        "./packages/ANNAPOORANI/*"
+      "@AnnaPoorani/AnnaPoorani/*" : [
+        "./packages/AnnaPoorani/*"
       ]
     }
   }

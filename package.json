@@ -1,5 +1,5 @@
 {
-  "name": "ANNAPOORANI",
+  "name": "AnnaPoorani",
   "version": "1.0.0-beta",
   "description": "A shopping cart platform with Express, React and Postgres",
   "files": [
@@ -10,26 +10,26 @@
     "babel.config.js"
   ],
   "bin": {
-    "ANNAPOORANI": "./bin/ANNAPOORANI"
+    "AnnaPoorani": "./bin/AnnaPoorani"
   },
   "workspaces": [
     "packages/*",
     "extensions/*"
   ],
   "scripts": {
-    "dev": "ANNAPOORANI dev",
-    "setup": "ANNAPOORANI install",
-    "build": "ANNAPOORANI build",
-    "start": "ANNAPOORANI start",
-    "user:create": "ANNAPOORANI user:create",
-    "user:changePassword": "ANNAPOORANI user:changePassword",
-    "start:debug": "ANNAPOORANI start --debug",
-    "test": "jest --workspace=@ANNAPOORANI/ANNAPOORANI",
+    "dev": "AnnaPoorani dev",
+    "setup": "AnnaPoorani install",
+    "build": "AnnaPoorani build",
+    "start": "AnnaPoorani start",
+    "user:create": "AnnaPoorani user:create",
+    "user:changePassword": "AnnaPoorani user:changePassword",
+    "start:debug": "AnnaPoorani start --debug",
+    "test": "jest --workspace=@AnnaPoorani/AnnaPoorani",
     "cypress": "cypress run",
     "lint": "eslint --fix --ext .js,.jsx .",
     "prepare": "husky install"
   },
-  "author": "The Nguyen (https://ANNAPOORANI.io)",
+  "author": "The Nguyen (https://AnnaPoorani.io)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "devDependencies": {
     "@babel/cli": "^7.15.7",

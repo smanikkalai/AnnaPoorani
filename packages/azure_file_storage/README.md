@@ -1,20 +1,20 @@
-# Azure storage extension for ANNAPOORANI
+# Azure storage extension for AnnaPoorani
 
-This extension allows you to store your ANNAPOORANI files including product images, banners on Azure Blob Storage.
+This extension allows you to store your AnnaPoorani files including product images, banners on Azure Blob Storage.
 
-> **Note**: This extension requires ANNAPOORANI version 1.0.0-rc.9 or higher.
+> **Note**: This extension requires AnnaPoorani version 1.0.0-rc.9 or higher.
 
 ## Installation guide
 
 ### Step 1: Install the extension using npm:
 
 ```bash
-npm install @ANNAPOORANI/azure_file_storage
+npm install @AnnaPoorani/azure_file_storage
 ```
 
 ### Step 2: Enable the extension
 
-Edit the `config/default.json` file in the root directory of your ANNAPOORANI installation and add the following line to the `extensions` section:
+Edit the `config/default.json` file in the root directory of your AnnaPoorani installation and add the following line to the `extensions` section:
 
 ```json
 {
@@ -25,7 +25,7 @@ Edit the `config/default.json` file in the root directory of your ANNAPOORANI in
       ...,
       {
         "name": "azure_file_storage",
-        "resolve": "node_modules/@ANNAPOORANI/azure_file_storage",
+        "resolve": "node_modules/@AnnaPoorani/azure_file_storage",
         "enabled": true,
         "priority": 10
       }
@@ -46,13 +46,13 @@ AZURE_STORAGE_CONTAINER_NAME="<Your container name>"
 Example:
 
 ```bash
-AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=myANNAPOORANI;AccountKey=+b1/nrwkpOF5DZCybDqSDFDdfGCQSbx8eua3y7sadgfdgdfAdNNbns6xMNh+EeE0b10uc0ZJ+AStvBx8pg==;EndpointSuffix=core.windows.net"
+AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=myAnnaPoorani;AccountKey=+b1/nrwkpOF5DZCybDqSDFDdfGCQSbx8eua3y7sadgfdgdfAdNNbns6xMNh+EeE0b10uc0ZJ+AStvBx8pg==;EndpointSuffix=core.windows.net"
 AZURE_STORAGE_CONTAINER_NAME="images"
 ```
 
 ### Step 4: Activate the Azure file storage
 
-Edit the `config/default.json` file in the root directory of your ANNAPOORANI installation and add the following line to the `file_storage` section:
+Edit the `config/default.json` file in the root directory of your AnnaPoorani installation and add the following line to the `file_storage` section:
 
 ```json
 {

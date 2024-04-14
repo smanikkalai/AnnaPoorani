@@ -1,21 +1,21 @@
 {
-  "name": "@ANNAPOORANI/resend",
+  "name": "@AnnaPoorani/resend",
   "version": "1.0.0",
-  "description": "A Resend extension for ANNAPOORANI.",
+  "description": "A Resend extension for AnnaPoorani.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/resend"
+    "url": "git+https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/resend"
   },
   "keywords": [
-    "ANNAPOORANI email",
-    "ANNAPOORANI Resend"
+    "AnnaPoorani email",
+    "AnnaPoorani Resend"
   ],
-  "author": "The Nguyen (https://ANNAPOORANI.io/)",
+  "author": "The Nguyen (https://AnnaPoorani.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/ANNAPOORANI/ANNAPOORANI/issues"
+    "url": "https://github.com/AnnaPooranicommerce/AnnaPoorani/issues"
   },
-  "homepage": "https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/resend",
+  "homepage": "https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/resend",
   "dependencies": {
     "handlebars": "^4.7.8",
     "resend": "^3.2.0"

@@ -1,14 +1,14 @@
 const {
   INTERNAL_SERVER_ERROR
-} = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/httpStatus');
-const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
-const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
+} = require('@AnnaPoorani/AnnaPoorani/src/lib/util/httpStatus');
+const { buildUrl } = require('@AnnaPoorani/AnnaPoorani/src/lib/router/buildUrl');
+const { error } = require('@AnnaPoorani/AnnaPoorani/src/lib/log/logger');
 const {
   getContextValue
-} = require('@ANNAPOORANI/ANNAPOORANI/src/modules/graphql/services/contextHelper');
-const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
+} = require('@AnnaPoorani/AnnaPoorani/src/modules/graphql/services/contextHelper');
+const { getConfig } = require('@AnnaPoorani/AnnaPoorani/src/lib/util/getConfig');
 const sgMail = require('@sendgrid/mail');
-const { getEnv } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getEnv');
+const { getEnv } = require('@AnnaPoorani/AnnaPoorani/src/lib/util/getEnv');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, delegate, next) => {

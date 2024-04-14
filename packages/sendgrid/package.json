@@ -1,21 +1,21 @@
 {
-  "name": "@ANNAPOORANI/sendgrid",
+  "name": "@AnnaPoorani/sendgrid",
   "version": "1.0.1",
-  "description": "A SendGrid extension for ANNAPOORANI.",
+  "description": "A SendGrid extension for AnnaPoorani.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/sendgrid"
+    "url": "git+https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/sendgrid"
   },
   "keywords": [
-    "ANNAPOORANI email",
-    "ANNAPOORANI SendGrid"
+    "AnnaPoorani email",
+    "AnnaPoorani SendGrid"
   ],
-  "author": "The Nguyen (https://ANNAPOORANI.io/)",
+  "author": "The Nguyen (https://AnnaPoorani.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/ANNAPOORANI/ANNAPOORANI/issues"
+    "url": "https://github.com/AnnaPooranicommerce/AnnaPoorani/issues"
   },
-  "homepage": "https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/sendgrid",
+  "homepage": "https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/sendgrid",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0"
   },

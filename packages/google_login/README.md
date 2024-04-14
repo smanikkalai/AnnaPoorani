@@ -1,20 +1,20 @@
-# Google authentication extension for ANNAPOORANI
+# Google authentication extension for AnnaPoorani
 
-This extension allows customer to login to ANNAPOORANI using your Google account.
+This extension allows customer to login to AnnaPoorani using your Google account.
 
-> **Note**: This extension requires ANNAPOORANI version 1.0.0-rc.6 or higher.
+> **Note**: This extension requires AnnaPoorani version 1.0.0-rc.6 or higher.
 
 ## Installation guide
 
 ### Step 1: Install the extension using npm:
 
 ```bash
-npm install @ANNAPOORANI/google_login
+npm install @AnnaPoorani/google_login
 ```
 
 ### Step 2: Enable the extension
 
-Edit the `config/default.json` file in the root directory of your ANNAPOORANI installation and add the following line to the `extensions` section:
+Edit the `config/default.json` file in the root directory of your AnnaPoorani installation and add the following line to the `extensions` section:
 
 ```json
 {
@@ -25,7 +25,7 @@ Edit the `config/default.json` file in the root directory of your ANNAPOORANI in
       ...,
       {
         "name": "google_login",
-        "resolve": "node_modules/@ANNAPOORANI/google_login",
+        "resolve": "node_modules/@AnnaPoorani/google_login",
         "enabled": true,
         "priority": 10
       }

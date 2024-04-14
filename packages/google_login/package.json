@@ -1,20 +1,20 @@
 {
-  "name": "@ANNAPOORANI/google_login",
+  "name": "@AnnaPoorani/google_login",
   "version": "1.0.0",
-  "description": "A Google authentication extension for ANNAPOORANI.",
+  "description": "A Google authentication extension for AnnaPoorani.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/google_login"
+    "url": "git+https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/google_login"
   },
   "keywords": [
-    "ANNAPOORANI google login"
+    "AnnaPoorani google login"
   ],
-  "author": "The Nguyen (https://ANNAPOORANI.io/)",
+  "author": "The Nguyen (https://AnnaPoorani.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/ANNAPOORANI/ANNAPOORANI/issues"
+    "url": "https://github.com/AnnaPooranicommerce/AnnaPoorani/issues"
   },
-  "homepage": "https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/google_login",
+  "homepage": "https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/google_login",
   "engines": {
     "node": ">= 14.0.0"
   }

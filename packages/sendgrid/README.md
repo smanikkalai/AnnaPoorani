@@ -1,15 +1,15 @@
-# SendGrid emailing for ANNAPOORANI
+# SendGrid emailing for AnnaPoorani
 
-A SendGrid extension for ANNAPOORANI. This extension is used to send email to customers.
+A SendGrid extension for AnnaPoorani. This extension is used to send email to customers.
 
-> **Note**: This extension requires ANNAPOORANI version 1.0.0-rc.6 or higher.
+> **Note**: This extension requires AnnaPoorani version 1.0.0-rc.6 or higher.
 
 ## Installation
 
 ### Step 1: Install the extension package
 
 ```javascript
-npm install @ANNAPOORANI/sendgrid
+npm install @AnnaPoorani/sendgrid
 ```
 ### Step 2: Register the extension by adding it to the config file
 
@@ -23,7 +23,7 @@ npm install @ANNAPOORANI/sendgrid
         ...,
         {
           "name": "sendGrid",
-          "resolve": "node_modules/@ANNAPOORANI/sendgrid",
+          "resolve": "node_modules/@AnnaPoorani/sendgrid",
           "enabled": true,
           "priority": 10
         }
@@ -40,7 +40,7 @@ npm install @ANNAPOORANI/sendgrid
   ...,
   "sendgrid": {
     "from": "Customer Service <Your email>",
-    "fromName": "ANNAPOORANI",
+    "fromName": "AnnaPoorani",
     "events": {
       "order_placed": {
         "enabled": true,
@@ -174,7 +174,7 @@ Below is the data you can use in your email template
 
 ```json
 {
-  "reset_password_url": "https://demo.ANNAPOORANI.io/reset-password?token=3NedZnEvEMCuLU1x1IHT684B"
+  "reset_password_url": "https://demo.AnnaPoorani.io/reset-password?token=3NedZnEvEMCuLU1x1IHT684B"
 }
 ```
 
@@ -185,7 +185,7 @@ Below is the data you can use in your email template
 ```json
 {
   "full_name": "David",
-  "email": "david@ANNAPOORANI.io"
+  "email": "david@AnnaPoorani.io"
 }
 ```
 

@@ -1,14 +1,14 @@
-const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
-const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
-const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
+const { pool } = require('@AnnaPoorani/AnnaPoorani/src/lib/postgres/connection');
+const { buildUrl } = require('@AnnaPoorani/AnnaPoorani/src/lib/router/buildUrl');
+const { getConfig } = require('@AnnaPoorani/AnnaPoorani/src/lib/util/getConfig');
 const {
   getGoogleAuthToken
-} = require('@ANNAPOORANI/google_login/services/getGoogleAuthToken');
+} = require('@AnnaPoorani/google_login/services/getGoogleAuthToken');
 const {
   getGoogleUserInfo
-} = require('@ANNAPOORANI/google_login/services/getGoogleUserInfo');
-const { select, insert } = require('@ANNAPOORANI/postgres-query-builder');
-const { error } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/log/logger');
+} = require('@AnnaPoorani/google_login/services/getGoogleUserInfo');
+const { select, insert } = require('@AnnaPoorani/postgres-query-builder');
+const { error } = require('@AnnaPoorani/AnnaPoorani/src/lib/log/logger');
 
 /* eslint-disable-next-line no-unused-vars */
 module.exports = async (request, response, delegate, next) => {

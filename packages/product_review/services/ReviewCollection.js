@@ -1,5 +1,5 @@
-const { camelCase } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/camelCase');
-const { pool } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/postgres/connection');
+const { camelCase } = require('@AnnaPoorani/AnnaPoorani/src/lib/util/camelCase');
+const { pool } = require('@AnnaPoorani/AnnaPoorani/src/lib/postgres/connection');
 
 class ReviewCollection {
   constructor(baseQuery) {

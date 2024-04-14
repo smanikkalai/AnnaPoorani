@@ -1,11 +1,11 @@
 {
-  "name": "@ANNAPOORANI/postgres-query-builder",
+  "name": "@AnnaPoorani/postgres-query-builder",
   "version": "1.1.0",
   "description": "A PostgreSQL query builder for NodeJS",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/postgres-query-builder"
+    "url": "git+https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/postgres-query-builder"
   },
   "keywords": [
     "PostgreSQL",
@@ -19,12 +19,12 @@
     "isValueASQL.js",
     "toString.js"
   ],
-  "author": "The Nguyen (https://ANNAPOORANI.io/)",
+  "author": "The Nguyen (https://AnnaPoorani.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ANNAPOORANI/ANNAPOORANI/issues"
+    "url": "https://github.com/AnnaPooranicommerce/AnnaPoorani/issues"
   },
-  "homepage": "https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/postgres-query-builder",
+  "homepage": "https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/postgres-query-builder",
   "dependencies": {
     "pg": "^8.10.0",
     "uniqid": "^5.3.0"

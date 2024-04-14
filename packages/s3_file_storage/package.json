@@ -1,20 +1,20 @@
 {
-  "name": "@ANNAPOORANI/s3_file_storage",
+  "name": "@AnnaPoorani/s3_file_storage",
   "version": "1.0.0",
-  "description": "An extension for ANNAPOORANI to use AWS S3 File Storage",
+  "description": "An extension for AnnaPoorani to use AWS S3 File Storage",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/s3_file_storage"
+    "url": "git+https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/s3_file_storage"
   },
   "keywords": [
-    "ANNAPOORANI AWS s3 file storage"
+    "AnnaPoorani AWS s3 file storage"
   ],
-  "author": "The Nguyen (https://ANNAPOORANI.io/)",
+  "author": "The Nguyen (https://AnnaPoorani.io/)",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "bugs": {
-    "url": "https://github.com/ANNAPOORANI/ANNAPOORANI/issues"
+    "url": "https://github.com/AnnaPooranicommerce/AnnaPoorani/issues"
   },
-  "homepage": "https://github.com/ANNAPOORANI/ANNAPOORANI/tree/main/packages/s3_file_storage",
+  "homepage": "https://github.com/AnnaPooranicommerce/AnnaPoorani/tree/main/packages/s3_file_storage",
   "engines": {
     "node": ">= 14.0.0"
   },

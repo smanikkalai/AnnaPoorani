@@ -1,4 +1,4 @@
-const { addProcessor } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/registry');
+const { addProcessor } = require('@AnnaPoorani/AnnaPoorani/src/lib/util/registry');
 const { azureFileUploader } = require('./services/azureFileUploader');
 const { azureFileDeleter } = require('./services/azureFileDeleter');
 const { azureFolderCreator } = require('./services/azureFolderCreator');

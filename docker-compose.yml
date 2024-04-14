@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: ANNAPOORANI/ANNAPOORANI:latest
+    image: AnnaPoorani/AnnaPoorani:latest
     restart: always
     environment:
       DB_HOST: database
@@ -11,7 +11,7 @@ services:
       DB_USER: postgres
       DB_NAME: postgres
     networks:
-      - ANNAPOORANI
+      - myAnnaPoorani
     depends_on:
       - database
     ports:
@@ -30,11 +30,11 @@ services:
     ports:
       - "5432:5432"
     networks:
-      - ANNAPOORANI
+      - myAnnaPoorani
 
 networks:
-  ANNAPOORANI:
-    name: ANNAPOORANI
+  myAnnaPoorani:
+    name: MyAnnaPoorani
     driver: bridge
 
 volumes:

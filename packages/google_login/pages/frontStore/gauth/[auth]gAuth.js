@@ -1,8 +1,8 @@
-const { buildUrl } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/router/buildUrl');
-const { getConfig } = require('@ANNAPOORANI/ANNAPOORANI/src/lib/util/getConfig');
+const { buildUrl } = require('@AnnaPoorani/AnnaPoorani/src/lib/router/buildUrl');
+const { getConfig } = require('@AnnaPoorani/AnnaPoorani/src/lib/util/getConfig');
 const {
   getGoogleAuthUrl
-} = require('@ANNAPOORANI/google_login/services/getGoogleAuthUrl');
+} = require('@AnnaPoorani/google_login/services/getGoogleAuthUrl');
 
 // eslint-disable-next-line no-unused-vars
 module.exports = (request, response, delegate, next) => {
